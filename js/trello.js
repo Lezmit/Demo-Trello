@@ -17,5 +17,23 @@ window.addEventListener("load",function(){
 		formulario.appendChild(inputTexto).classList.add("input-form");
 		formulario.appendChild(boton).classList.add("boton-form");
 		formulario.classList.add("form-ingreso");
+		//click en boton
+		boton.addEventListener("click",function(e){
+			e.preventDefault();
+			inputTexto.style.display="none";
+			boton.style.display="none";
+			var title=document.createElement("div");
+			var textoTitle=inputTexto.value;
+			title.innerHTML=textoTitle;
+			formulario.appendChild(title).classList.add("titleLista");
+			var link=document.createElement("a");
+			var textoLink =document.createTextNode("Añadir tarjeta...");
+			link.appendChild(textoLink);
+			formulario.appendChild(link).classList.add("linkLista");
+			//creando tarjeta
+		});
 	});
+	function creandoform(){
+
+	}
 });

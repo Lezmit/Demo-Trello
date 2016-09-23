@@ -89,3 +89,10 @@ section{
   padding: 5px 20px;
   display: block
 }
+/* title de lista*/
+.titleLista{
+  font-weight: 600;
+}
+.linkLista{
+  color:gray;
+}
