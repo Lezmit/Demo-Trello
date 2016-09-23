@@ -1,0 +1,91 @@
+* {
+  	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+}
+body{
+ background-color: #0079BF;
+}/* -------------------navbar--------------- */
+/*boton*/
+.btn {
+  background-color: #4C94BF;
+  border-color: transparent;
+  color:white;
+  display: inline-block;
+  font-weight: 600;
+  padding: 5px 12px;
+}
+.fa-trello{
+  font-size: 17px;
+  padding-right: 4px;
+}
+.fa-trello:hover{
+  color: white;
+}
+/*buscador*/
+.navbar-default {
+  background-color: #276787;
+  border-color: #276787;
+}
+.buscar{
+	background-color: #4C94BF;
+	position: relative;
+	text-align: right;
+	border-radius: 5px;
+  padding: 1px;	
+}
+input{
+	background-color: transparent;
+	border-color: transparent;
+	height: 30px;
+}
+.fa-search{
+	color: white;
+    padding-left: 5px;
+    transform: scaleX(-1);
+}
+.logo-trello{
+    position: absolute;
+    left: 46%;
+    padding: 5px;
+    width: 120px;
+}
+/*---------------section----------*/
+section{
+  padding:50px; 
+}
+#columna-trello{
+  width: 270px;
+}
+.columna-trello{
+  border-radius: 5px;
+  background-color:#0067A3;
+  cursor:pointer;
+  padding: 7px;
+}
+.span{
+  color:#A9C6D7;
+  display: block;
+}
+.form-ingreso{
+  border-radius: 5px;
+  background-color:gainsboro;
+  padding: 7px;
+  cursor:pointer;
+}
+.input-form{
+  background-color: #D7D9DB;
+  border-radius: 5px;
+  border: 1px solid #B2B2B3;
+  margin-bottom: 5px;
+  padding: 6px;
+  width: 255px;
+}
+.boton-form{
+  background-color: #5DB449;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 5px 20px;
+  display: block
+}
