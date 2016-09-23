@@ -8,6 +8,8 @@
 ####Versión 0.0.2  
 1.-Mostrar en el HTML, el texto ingresado al dar click en el botón de "Guardar" del formulario (como si fuera título de la lista).
 Debajo del título, mostrar el mensaje clickeable de "Añadir una tarjea".  
+<a href="http://es.tinypic.com?ref=mu772d" target="_blank"><img src="http://i67.tinypic.com/mu772d.gif" border="0" alt="Image and video hosting by TinyPic"></a>  
+  
 ####Versión 0.0.3  
 1.-Una vez agregada la lista, mostrar el mensaje clickeable de "Añadir una lista" al lado de la lista agregada.  
 ####Versión 0.0.4  
